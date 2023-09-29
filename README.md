@@ -43,4 +43,4 @@ react-dashboard is [MIT licensed](LICENSE).
 
 ---
 
-For more information and documentation, visit the [ReactDashPro GitHub repository](https://github.com/your-username/react-dash-pro).
+For more information and documentation, visit the [react-dashboard GitHub repository](https://github.com/your-username/react-dash-pro).
