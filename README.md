@@ -30,7 +30,7 @@ Follow these steps to get the project up and running on your local machine.
 1. Clone this repository using `git clone https://github.com/clinton-mwachia/react-dashboard.git`.
 2. Install dependencies using `npm install`.
 3. Start the development server with `npm run dev`.
-
+  
 ## Contributing
 
 We welcome contributions to react-dashboard! To contribute, follow these steps:
@@ -46,7 +46,3 @@ Please read our [Contribution Guidelines](CONTRIBUTING.md) for more details on h
 ## License
 
 react-dashboard is [MIT licensed](LICENSE).
-
----
-
-For more information and documentation, visit the [react-dashboard GitHub repository](https://github.com/your-username/react-dash-pro).
