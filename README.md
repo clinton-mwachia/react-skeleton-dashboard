@@ -11,17 +11,23 @@ react-dashboard is an open-source React dashboard template designed to help you 
 
 ## Features
 
-- Clean and intuitive UI
-- Responsive design for various devices
-- Modular and customizable components
-- Easy to integrate and extend
-- Efficient data visualization
+- 🎨 Clean and intuitive user interface.
+- 📱 Responsive design to suit various devices.
+- 🛠️ Modular and customizable components for tailored solutions.
+- 🚀 Easy integration and extensibility to fit your project requirements.
+- 📊 Efficient data visualization to present insights effectively.
+
+## 🛠️ Built with:
+
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [Chakra ui](https://chakra-ui.com/): A simple, modular and accessible component library that gives you the building blocks you need to build React applications.
+- [React Router](https://reactrouter.com/en/main): Client side Routing.
 
 ## Getting Started
 
 Follow these steps to get the project up and running on your local machine.
 
-1. Clone this repository.
+1. Clone this repository using `git clone https://github.com/clinton-mwachia/react-dashboard.git`.
 2. Install dependencies using `npm install`.
 3. Start the development server with `npm run dev`.
 
