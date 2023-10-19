@@ -21,7 +21,7 @@ react-dashboard is an open-source React dashboard template designed to help you 
 
 - [React](https://reactjs.org/): A JavaScript library for building user interfaces.
 - [Chakra ui](https://chakra-ui.com/): A simple, modular and accessible component library that gives you the building blocks you need to build React applications.
-- [React Router](https://reactrouter.com/en/main): Client side Routing.
+- [React Router](https://reactrouter.com/en/main)
 
 ## Getting Started
 
