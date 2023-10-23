@@ -1,10 +1,17 @@
-import { Box } from "@chakra-ui/react";
+import { Suspense, lazy } from "react";
+import { HashRouter, Route, Routes } from "react-router-dom";
+
+const Layout = lazy(() => import("./layout/Layout"));
 
 const App = () => {
   return (
-    <Box bg="tomato" w="100%" p={4} color="white">
-      This is the Box
-    </Box>
+    <HashRouter>
+      <Suspense fallback={<>lOADING...</>}>
+        <Routes>
+          <Route exact path="*" element={<Layout />} />
+        </Routes>
+      </Suspense>
+    </HashRouter>
   );
 };
 
