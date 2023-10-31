@@ -62,6 +62,7 @@ const Header = ({ onOpen, ...rest }) => {
           aria-label="open menu"
           icon={<FiBell />}
         />
+
         <IconButton
           size="lg"
           variant="ghost"
