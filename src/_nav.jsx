@@ -1,4 +1,4 @@
-import { FiHome } from "react-icons/fi";
+import { FiHome, FiLayout, FiBox } from "react-icons/fi";
 
 const _nav = [
   {
@@ -7,14 +7,13 @@ const _nav = [
     to: "/dashboard",
   },
   {
-    name: "test",
-    icon: FiHome,
-    to: "/test",
+    name: "Layout",
+    icon: FiLayout,
     items: [
       {
-        name: "Test 1",
-        to: "/test1",
-        icon: FiHome,
+        name: "Box",
+        to: "/box",
+        icon: FiBox,
       },
       {
         name: "Test 2",
