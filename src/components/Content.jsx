@@ -1,12 +1,22 @@
-import { Box, useColorModeValue } from "@chakra-ui/react";
+import { Box, useColorModeValue, Center, Spinner } from "@chakra-ui/react";
 import { Suspense } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import routes from "../routes";
 
+const Loading = () => {
+  return (
+    <Center h="100vh">
+      <Center w="100%">
+        <Spinner size="xl" color="blue.500" />
+      </Center>
+    </Center>
+  );
+};
+
 const Content = () => {
   return (
     <Box minH="100vh" bg={useColorModeValue("gray.100", "gray.900")}>
-      <Suspense fallback={<>loading..</>}>
+      <Suspense fallback={<Loading />}>
         <Routes>
           {routes.map((route, idx) => {
             return (
