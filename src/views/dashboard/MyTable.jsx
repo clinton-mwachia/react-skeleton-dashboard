@@ -11,10 +11,27 @@ import {
 } from "@chakra-ui/react";
 
 const MyTable = () => {
+  const data = [
+    {
+      from: "inches",
+      to: "millimetres (mm)",
+      multiplier: 25.4,
+    },
+    {
+      from: "feet",
+      to: "centimetres (cm)",
+      multiplier: 30.48,
+    },
+    {
+      from: "yards",
+      to: "metres (m)",
+      multiplier: 0.91444,
+    },
+  ];
   return (
     <TableContainer>
       <Table size="sm">
-        <TableCaption>Imperial to metric conversion factors</TableCaption>
+        <TableCaption>Table Caption</TableCaption>
         <Thead>
           <Tr>
             <Th>To convert</Th>
@@ -22,28 +39,15 @@ const MyTable = () => {
             <Th isNumeric>multiply by</Th>
           </Tr>
         </Thead>
-        <Tbody>
-          <Tr>
-            <Td>inches</Td>
-            <Td>millimetres (mm)</Td>
-            <Td isNumeric>25.4</Td>
-          </Tr>
-          <Tr>
-            <Td>feet</Td>
-            <Td>centimetres (cm)</Td>
-            <Td isNumeric>30.48</Td>
-          </Tr>
-          <Tr>
-            <Td>yards</Td>
-            <Td>metres (m)</Td>
-            <Td isNumeric>0.91444</Td>
-          </Tr>
-          <Tr>
-            <Td>yards</Td>
-            <Td>metres (m)</Td>
-            <Td isNumeric>0.91444</Td>
-          </Tr>
-        </Tbody>
+        {data.map((dt, index) => (
+          <Tbody key={index}>
+            <Tr>
+              <Td>{dt.from}</Td>
+              <Td>{dt.to}</Td>
+              <Td isNumeric>{dt.multiplier}</Td>
+            </Tr>
+          </Tbody>
+        ))}
         <Tfoot>
           <Tr>
             <Th>To convert</Th>
