@@ -6,7 +6,7 @@ const Footer = () => {
       as="footer"
       borderTop="1px"
       borderTopColor={"gray.300"}
-      py="4"
+      py="2"
       alignItems="center"
       position="fixed"
       bottom="0"
