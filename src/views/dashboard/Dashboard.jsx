@@ -1,11 +1,11 @@
-import { Box, SimpleGrid } from "@chakra-ui/react";
+import { Box, SimpleGrid, Stack } from "@chakra-ui/react";
 import { BsPerson } from "react-icons/bs";
 import { FiServer } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
 
 import Card from "./Card";
-import BarChart from "./chats/BarChart";
-import LineChart from "./chats/LineChart";
+import { BarChart, LineChart } from "./chats/index";
+import MyTable from "./MyTable";
 
 const Dashboard = () => {
   return (
@@ -31,6 +31,9 @@ const Dashboard = () => {
           <LineChart />
         </Box>
       </SimpleGrid>
+      <Stack borderWidth="1px" borderRadius="lg" p={3} mt={5} mb={10}>
+        <MyTable />
+      </Stack>
     </Box>
   );
 };
