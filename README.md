@@ -8,6 +8,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 react-skeleton-dashboard is an open-source starter skeleton for your next dashboard.
+It is designed to be the foundation of your next project.
 
 ## Features
 
