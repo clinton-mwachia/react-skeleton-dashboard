@@ -10,6 +10,7 @@ const _nav = [
   {
     name: "Layout",
     icon: FiLayout,
+    to: "/component",
     items: [
       {
         name: "Component",
