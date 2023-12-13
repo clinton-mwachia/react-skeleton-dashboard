@@ -99,10 +99,16 @@ const Header = ({ onOpen, ...rest }) => {
               >
                 <MenuItem>Profile</MenuItem>
               </ChakraLink>
+              <ChakraLink
+                as={Link}
+                to={"/login"}
+                _hover={{ textDecoration: "none" }}
+              >
+                <MenuItem>Login</MenuItem>
+              </ChakraLink>
               <MenuDivider />
               <MenuItem
                 onClick={() => {
-                  localStorage.clear();
                   navigate("/login");
                 }}
               >
