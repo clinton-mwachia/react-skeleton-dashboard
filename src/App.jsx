@@ -4,6 +4,7 @@ import { Spinner, Center } from "@chakra-ui/react";
 
 const Layout = lazy(() => import("./layout/Layout"));
 const Login = lazy(() => import("./pages/login/Login"));
+const Register = lazy(() => import("./pages/register/Register"));
 
 // loading spinner
 const Loading = () => {
@@ -23,6 +24,7 @@ const App = () => {
         <Routes>
           <Route exact path="*" element={<Layout />} />
           <Route exact path="/login" element={<Login />} />
+          <Route exact path="/register" element={<Register />} />
         </Routes>
       </Suspense>
     </HashRouter>
